@@ -3,7 +3,7 @@
 <template>
   <div class="ctr">
     <Questions v-if="questionsAnswered < questions.length" :questions="questions" :questionsAnswered="questionsAnswered" @question-answered="questionAnswered"/>
-    <Results v-else/>
+    <Results v-else />
     <button type="button" class="reset-btn">Reset</button>
   </div>
 </template>
